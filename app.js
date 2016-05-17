@@ -17,6 +17,7 @@ class App {
             'angularDemoChat', {name: user.name, message: user.message}
           ])
           s.rb.send('getTable', 'angularDemoChat')
+          user.message = ""
         }
       }
       s.update = function() {
