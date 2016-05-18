@@ -9,8 +9,8 @@
   <body ng-app="myApp" ng-cloak>
     <div class="container form-group" ng-controller="M">
       <form novalidate class="simple-form">
-        Name: <input type="text" class="form-control" ng-model="u.name" /><br /><br>
-        Message: <input type="text" ng-keypress="newMessage($event, u)" class="form-control" ng-model="u.message" /><br /><br>
+        Name: <input type="text" class="form-control" ng-model="u.name"/><br/><br>
+        Message: <input type="text" ng-keypress="newMessage($event, u)" class="form-control" ng-model="u.message"/><br/><br>
       </form>
       <button class='btn btn-danger' ng-click="update()"/>Delete All Messages</button>
     </div>
